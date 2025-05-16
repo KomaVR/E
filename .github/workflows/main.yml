@@ -19,4 +19,4 @@ jobs:
           sudo mv bombardier-linux-amd64 /usr/local/bin/bombardier
       - name: Execute Stress Test
         run: |
-          bombardier -c 500 -d 60s -l https://www.revokemc.com
+          bombardier -c 500000 -d 60m -l https://www.revokemc.com
